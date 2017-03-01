@@ -1,4 +1,32 @@
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: url("SourceSansPro-Light.otf");
+}
+
+body { font-family: "Bitstream Vera Serif Bold", serif; }
+
 .contact {
   text-align: right;
-  padding: 3em  
+  padding: 3em;
+  margin-left: 1em;
+  font-family: 'SourceSansPro-Light', serif, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.contact > a {
+  font-family: 'SourceSansPro-Light', serif, Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  width: 20%;
+  height: auto;
 }
