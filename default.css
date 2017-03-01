@@ -3,7 +3,11 @@
   src: url("SourceSansPro-Light.otf");
 }
 
-body { font-family: "Bitstream Vera Serif Bold", serif; }
+body {
+  background: linear-gradient(rgba(61, 70, 100, 0.86), rgba(61, 70, 100, 0.86)), url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .contact {
   text-align: right;
