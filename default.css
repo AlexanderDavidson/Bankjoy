@@ -6,6 +6,12 @@
 
 @font-face {
   font-family: "Banana";
+  src: url("SourceSansPro-Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Banana";
   src: url("SourceSansPro-ExtraLight.otf");
   font-weight: 100;
 }
@@ -20,20 +26,22 @@ body {
   background-attachment: fixed;
 }
 
-.contact {
+#contact {
   z-index: 2;
   text-align: right;
   padding: 3em;
   margin-left: 1em;
   font-family: 'Banana', serif, Arial, Helvetica, sans-serif;
   color: white;
-  font-weight: 200;
+  font-weight: normal;
 }
 
-.contact > a {
+#contact > a {
+  display: inline-block;
   z-index: 2;
   font-family: 'Banana', serif, Arial, Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: normal;
+  text-indent: 0.25em;
 }
 
 a {
