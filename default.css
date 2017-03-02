@@ -102,13 +102,13 @@ a {
 }
 
 #phones {
-  width: 70%;
+  width: 75%;
   margin: 100px auto;
 }
 
 .phone {
   position: relative;
-  width: 32%;
+  width: 31%;
 }
 
 #left {
@@ -116,7 +116,7 @@ a {
 }
 
 #center {
-  top: -5%;
+  bottom: 0.75em;
   width: 33%;
   z-index: 2;
 }
