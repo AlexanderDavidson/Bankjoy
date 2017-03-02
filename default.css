@@ -90,3 +90,24 @@ a {
   color: white;
   opacity: 0.5;
 }
+
+#demobutton {
+  z-index: 1;
+  display: block;
+  font-family: 'Banana', serif, Arial, Helvetica, sans-serif;
+  text-align: center;
+  vertical-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 12px, 35px;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #5170dd;
+  width: 201.859px;
+  line-height: 51px;
+  border: 1px #1fffff;
+  border-radius: 50px;
+}
