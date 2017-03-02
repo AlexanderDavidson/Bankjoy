@@ -41,12 +41,11 @@ a {
   text-decoration: none;
 }
 
-.logo > img {
+#logo > img {
   z-index: 2;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4em;
   width: 20%;
   height: auto;
 }
