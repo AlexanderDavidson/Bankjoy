@@ -14,20 +14,10 @@ body {
   font-family: "SourceSansPro-Light", serif;
   padding: 0;
   margin: 0;
-  background-image: url(background.jpg);
+  background: linear-gradient(rgba(61, 70, 100, 0.86), rgba(61, 70, 100, 0.86)), url(background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.background-tint {
-  z-index: -100;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  overflow: auto;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(61, 70, 100, 0.86);
+  background-attachment: fixed;
 }
 
 .contact {
