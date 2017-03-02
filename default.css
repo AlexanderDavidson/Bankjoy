@@ -111,3 +111,29 @@ a {
   border: 1px #1fffff;
   border-radius: 50px;
 }
+
+#phones {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phone {
+  position: relative;
+  width: 32%;
+}
+
+#left {
+  right: -8%;
+}
+
+#center {
+  top: -5%;
+  width: 33% !important;
+  z-index: 2;
+}
+
+#right {
+  left: -8%;
+}
