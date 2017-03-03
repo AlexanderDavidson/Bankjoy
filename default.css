@@ -124,3 +124,25 @@ a {
 #right {
   left: -8%;
 }
+
+#shadow-right {
+  display: inline;
+  right: 35%;
+  bottom: 6.1em;
+  height: 45%;
+  width: 6em;
+  z-index: 1;
+  background: linear-gradient(to right, black -60%, transparent);
+  position: absolute;
+}
+
+#shadow-left {
+  display: inline;
+  left: 32%;
+  bottom: 6.1em;
+  height: 45%;
+  width: 6em;
+  z-index: 1;
+  background: linear-gradient(to left, black -60%, transparent);
+  position: absolute;
+}
